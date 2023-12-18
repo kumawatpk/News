@@ -1,0 +1,74 @@
+@media only screen and (max-width: 770px ){
+    .nav-list{
+        flex-direction: column;
+    }
+    
+    .navbar{
+        height: 340px;
+        flex-direction: column;
+        transition: all 0.2s ease-out;
+    }
+
+.rightnav{
+        flex-direction: column;
+    } 
+
+.firstp{
+    font-size: 20px;
+}
+
+#Search-big{
+    font-size: 15px;
+}
+
+.rightnav{
+visibility: hidden;
+}
+
+.btn-big{
+    font-size: 15px;
+}
+
+.in{
+    font-size: 30px;
+}
+
+.pf{
+    font-size: 20px;
+}
+
+.ps{
+    font-size: 10px;
+
+}
+.img{
+    padding-top: 75px;
+}
+
+#fullname{
+    padding-right: 0px;
+}
+
+#email{
+    padding-right: 0px;
+}
+
+#password{
+    padding-right: 0px;
+}
+
+.burger{
+    display: block;
+}
+
+.h-nav-resp{
+    height: 60px;
+}
+
+.v-class-resp{
+    opacity: 0;
+}
+
+
+
+}
