@@ -1,0 +1,264 @@
+*{
+    font-family: ui-monospace;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo{
+    width: 67px;
+    padding: 12px 25px;
+}
+
+.logo img{
+    width: 50px;
+    
+}
+
+.nav-list{
+    width: 50%;
+    /*background-color: aqua;*/
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.nav-list li{
+    list-style: none;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+.nav-list li a{
+text-decoration: none;
+}
+
+.nav-list li a:hover{
+    color: green;
+    }
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+    padding: 14px;
+}
+
+#Search{
+    padding: 4px;
+    font-size: 17px;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+.background{
+background: rgba(0, 0, 0, 0.7) url('../img.jpg');
+background-size: cover;
+background-blend-mode: darken;
+}
+
+.bts-sm{
+    font-size: 20px;
+    font-family: ui-monospace;
+    border: 3px red;
+    border-radius: 6px 9px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+.box-m{
+    background-color: black;
+    color: white;
+    padding: 183px 97px;
+
+}
+
+.firsthalf{
+text-align: center  ;
+}
+
+.firstp{
+font-size: 41px;
+padding-top: 100px;
+padding-bottom: 18px;
+
+}
+
+#Search-big{
+    font-size: 23px;
+    border: 3px solid gray;
+    border-radius: 30px
+}
+
+.btn-big{
+    font-size: 22px;
+    color: red;
+    background: none;
+    border: 3px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.secondhalf{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.sec-box{
+    max-width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+.in{
+    font-size: 40px;
+    padding-left: 53px;
+    padding-top: 35px;
+    padding-bottom: 33px;
+    background-color: black;
+    color: red;
+}
+
+.pf{
+    font-size: 32px;
+
+}
+
+.ps{
+font-size: 24px;
+}
+
+.img img{
+    
+    width: 50%;
+    border: 3px solid red;
+    border-radius: 60px 60px;
+}
+
+
+
+.thirdhalf{
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+.forthhalf{
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+.lastsec{
+    background-color: antiquewhite;
+    padding-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.namefull{
+padding-bottom: 5px ;
+}
+
+
+.f1{
+max-width: 50%;
+margin: auto;
+}
+
+#fullname{
+    border: 1px solid red;
+    border-radius: 15px;
+    font-size: 16px;
+    padding-right: 80px;
+}
+
+#email{
+    border: 1px solid red;
+    border-radius: 15px;
+    font-size: 16px;
+    padding-right: 80px;
+
+}
+
+
+.Email{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+.pass{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+#password{
+    border: 1px solid red;
+    border-radius: 15px;
+    padding-right: 80px;
+    font-size: 16px;
+}
+
+.btn-submit{
+font-size: 16px;
+border: 2px solid red;
+border-radius: 20px;
+padding: 3px 8px;
+margin: 15px; 
+cursor: pointer;
+}
+
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.footerp{
+    color: red;
+    text-align: center;
+}
+
+.burger{
+display: none;
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: red;
+    height: 4px;
+    margin: 5px 5px;
+}
+
+
